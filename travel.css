@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+.home h1{
+    font-size: 100px;
+}
+.homediv{
+    padding: 40px;
+}
+
+h1{
+    font-weight: 700;
+    color: #17252a;
+}
+
+.carousel-item img{
+    width: 100%;
+    height: 50vh;
+}
+
+.testimonial {
+    text-align: center;
+    padding: 20px;
+}
+
+.testimonial img {
+    display: block;
+    margin: 0 auto; /* Center-align the image */
+    max-width: 150px; /* Adjust the max-width as needed */
+    max-height: 150px;
+    border-radius: 50%; /* Make the image circular */
+
+}
